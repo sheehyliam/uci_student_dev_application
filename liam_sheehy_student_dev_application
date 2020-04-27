@@ -1,0 +1,23 @@
+#Liam Sheehy
+#04/27/20
+
+#Coding language choice: Python
+
+#Prompt: Write a function that takes an array of integers and returns
+#the sum of all the odd numbers within
+
+#++BEGIN++
+
+def add_odd(num_array):
+#Takes in an array and returns the sum of all its odd numbers
+    total = 0
+
+    #Cycles through the array, checks if odd, adds to total if so
+    for i in num_array: 
+        if i % 2 == 1: 
+            total += i 
+
+    return total
+
+#++END++
+    
